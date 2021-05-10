@@ -1,3 +1,4 @@
+// Index No 19000032
 object Sales extends App{
 
     def discount_cost(n: Int): Double = {
@@ -7,10 +8,10 @@ object Sales extends App{
     def shipping_cost(n: Int): Double = {
         
         if(n < 51){
-            return 3
+            return 3 * 50
         }
         else{
-            return 3 + (n-50)*0.75
+            return 3*50 + (n-50)*0.75
         }
     }
 
